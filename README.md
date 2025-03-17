@@ -3,31 +3,31 @@ This is a basic web server built using Go's net/http package. It listens on port
 
 **How It Works**
 
-The server runs on localhost:8080.
+1. The server runs on localhost:8080.
 
-When a user visits http://localhost:8080/, it calls the home function.
+2. When a user visits http://localhost:8080/, it calls the home function.
 
-The home function responds with the message: "Welcome to my server".
+3. The home function responds with the message: "Welcome to my server".
 
 **Prerequisites**
 
-Install Go 
+1. Install Go 
 
-Create a go.mod file using:
+2. Create a go.mod file using:
 
 **Installation & Running**
 
-go mod init mywebserver
+1. go mod init mywebserver
 
-Run the server:
+2. Run the server:
 
-go run main.go
+   go run main.go
 
-Open your browser and go to:
+3. Open your browser and go to:
 
 http://localhost:8080/
 
-You should see:
+4. You should see:
 
 Welcome to my server
 
